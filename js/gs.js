@@ -6,10 +6,15 @@ tl
         rotation: -18,
         transformOrigin: "100% 100%"
     } )
-    .from( $(".line-t"), 2,{
+    .from( $('.line-t'), 2,{
         rotation: 18,
         transformOrigin: "100% 50%"
-    },"-=1.5")
-    .from( $(".line-i"), 2, {
-        y: "100%"
-    });
+    },'-=2')
+    .from( $('.line-o'), 2, {
+        rotation: -18,
+        transformOrigin: "100% 50%"
+    }, '-=2')
+    .from( $('.line-l'), 2, {
+        rotation: 18,
+        transformOrigin: "100% 50%"
+    }, '-=2');
