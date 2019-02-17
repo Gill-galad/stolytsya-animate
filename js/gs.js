@@ -17,4 +17,8 @@ tl
     .from( $('.line-l'), 2, {
         rotation: 18,
         transformOrigin: "100% 50%"
-    }, '-=2');
+    }, '-=2')
+    .from( $('.line-y'), 2, {
+        rotation: -18,
+        transformOrigin: "100% 50%"
+    }, '-=2')
